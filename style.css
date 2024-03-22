@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    background: linear-gradient(to right, #6efef5, #1c859f, #4338c1);
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+form {
+    margin: 10px 0;
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 500;
+    position: relative;
+    left: 30vw;
+
+    &:hover {
+        color: #e10d0d;
+    }
+}
+
+.btn {
+    padding: 8px 24px;
+    background-color: black;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+}
+
+input {
+    padding: 6px 2px;
+    min-width: 320px;
+    font-size: 18px;
+}
